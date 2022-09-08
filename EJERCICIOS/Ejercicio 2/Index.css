@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+header {
+    height: 60px;
+    background-color: aqua;
+    border: 3px solid black
+}
+
+.container{
+    background-color: red;
+}
+
+#cabecera1{
+    background-color: green;
+}
+
+#cabecera2{
+    background-color: yellow;
+}
+
+section{
+    height: calc(100% - 105px);
+    background-color: blueviolet;
+}
+
+.container-fluid {
+    height: calc(100% - 115px);
+    display: flex;
+}
+
+#ejemplo1, #ejemplo2
+{
+    width: 50%;
+    height: calc(100% - 50px);
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid black
+}
+
+#ejemplo1 {
+    
+    margin-right: 5px;
+
+}
+
+#ejemplo2 {
+    
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+
+footer {
+    height: 40px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    background-color: red;
+    bottom: 0;
+}
+
+table, td {
+    border: 1px solid black;
+}
+
+caption {
+    margin-bottom: 20px;
+}
+
+td {
+    text-align: center;
+}
+
+.row 
+{
+    margin-bottom: 20px;
+}
+
+.row #label-textarea
+{
+    vertical-align: top;
+}
+
+.buttons button
+{
+    height: 60px;
+    font-size: 20px;
+    padding: 15px;
+    cursor: hand;
+}
+
+label {
+    margin-right: 50px;
+}
+
+.w-30 {
+    width: 30%;
+    display: inline-flex;
+}
+
+fieldset {
+    margin-bottom: 20px;
+}
+.margin--bottom-10px{
+    margin-bottom: 10px;
+}
+.margin--bottom-20px{
+    margin-bottom: 20px;
+}
+
