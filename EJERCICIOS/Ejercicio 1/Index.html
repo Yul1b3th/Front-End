@@ -1,0 +1,151 @@
+<html>
+    <head>
+        <meta>
+
+        <link rel="stylesheet" href="./Index.css">
+
+        <style></style>
+
+    </head>
+
+    <body>
+        <header>
+          <div class="container-fluid">
+            <nav class="nav" id="cabecera1"><p>Cabecera 1</p> </nav>
+    
+            <nav class="nav" id="cabecera2"><p>Cabecera 2</p> </nav>
+          </div>
+        </header>
+    
+        <div class='container-fluid'>
+            <div id="ejemplo1">
+                <div class="inner">Lista desordenadas</div>
+
+                <div>
+                    <ul>
+                        <li>Primer ítem.</li>
+                        <li>Segundo ítem.</li>
+                        <li>Tercer ítem.</li>
+                    </ul>
+                </div>
+
+                <div class="inner">Lista ordenadas</div>
+
+                <div>
+                    <ol start="c" type="a" reversed>
+                        <li value="1">Primer ítem.</li>
+                        <li value="2">Segundo ítem.</li>
+                        <li value="3">Tercer ítem.</li>
+                    </ol>
+                </div>
+            </div>
+    
+          <div id='ejemplo2'>
+              <div class="contenido">
+                <header>
+                    <h1>Formulario</h1>
+                </header>
+
+                <br>
+
+                <form >
+                    <div class="row">
+                        <div class="w-30">
+                            <label for="input-1">Nombre:</label>
+                        </div>
+                        
+                        <input id="input-1" type="text" name="eqweqe" tabindex="1">
+                    </div>
+                    
+                    <div class="row">
+                        <div class="w-30">
+                            <label id="label-textarea" for="text-area">Comentario</label>
+                        </div>
+                        
+                        <textarea name="pepito" id="text-area" cols="30" rows="10" tabindex="3"></textarea>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-30">
+                            <label for="select-1">Ciudad</label>
+                        </div>
+                        
+                        <select id="select-1" name="ciudad" tabindex="2">
+                            <option value="bcn">Barcelona</option>
+                            <option value="gi">Girona</option>
+                            <option value="lle">Lleida</option>
+                            <option value="tr">Tarragona</option>
+
+                        </select>
+                    </div>
+
+                    <div class="row">
+                        <div class="w-30">
+                            <label for="select-2">Provincias</label>
+                        </div>
+                        
+                        <select id="select-2" name="provincias" >
+                            <optgroup label="Cataluña">
+                                <option value="bcn">Barcelona</option>
+                                <option value="gi">Girona</option>
+                                <option value="lle">Lleida</option>
+                                <option value="tr">Tarragona</option>
+                            </optgroup>
+
+                            <optgroup label="Valencia">
+                                <option value="cas">Castellon</option>
+                                <option value="val">Valencia</option>
+                                <option value="ali">Alicante</option>
+                            </optgroup>
+                        </select>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="w-30">
+                            <label for="capitales">Provincias</label>
+                        </div>
+
+                        <input id="capitales" type="text" list="items" />
+                            <!-- Lista de opciones -->
+                            <datalist id="items">
+                                <option>Barcelona</option>
+                                <option>Valencia</option>
+                                <option>Zaragoza</option>
+                            </datalist>
+                    </div>
+
+                    <fieldset>
+                        <legend>Sexo</legend>
+
+                        <input id="masc" name="Sex" type="radio">Masculino
+                        <input id="fem" name="Sex" type="radio">Femenino
+                    </fieldset>
+
+                    <fieldset class="checkbox">
+                        <legend class="margin--bottom-10px">Hobbys</legend>
+
+                        <div class="margin--bottom-10px"><input id="" name="hobby" type="checkbox"> Futbol</div>
+                        <div class="margin--bottom-10px"><input id="" name="hobby" type="checkbox"> Senderismo</div>
+                        <div class="margin--bottom-10px"><input id="" name="hobby" type="checkbox"> Modelismo</div>
+                        <div class="margin--bottom-10px"><input id="" name="hobby" type="checkbox"> Gastronomia</div>
+                    </fieldset>
+                    
+                    <div class="buttons">
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Cancelar</button>
+                    </div>
+                    
+                </form>
+              </div>
+          </div>
+    
+      </div>
+    </section>
+        
+        <!--  Pie -->
+        <footer>
+            <p>Pie de pagina</p> 
+        </footer>
+      </body>
+</html>
